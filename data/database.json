@@ -11,7 +11,7 @@
       "phoneNumber": "398-225-9900",
       "avatar": "https://avatars.dicebear.com/api/human/uBmeaz5pX.svg",
       "defaultPrivacyLevel": "public",
-      "balance": 150953,
+      "balance": 250953,
       "createdAt": "2023-03-09T22:26:40.101Z",
       "modifiedAt": "2024-03-07T10:07:57.580Z"
     },
@@ -74,6 +74,39 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
+    },
+    {
+      "id": "iep_LC6NG",
+      "uuid": "c2c3bcf2-7881-4b5a-98b3-389355bafd2f",
+      "firstName": "Vtor",
+      "lastName": "Augusto",
+      "username": "Vtor98",
+      "password": "$2a$10$grdTeFc7jqh7SNmZws1cwOzWZKEfnveAMsFS5jn12BhQmAoxLBueO",
+      "balance": 0,
+      "createdAt": "2025-04-14T23:33:22.813Z",
+      "modifiedAt": "2025-04-14T23:33:22.813Z"
+    },
+    {
+      "id": "pcFy_X7Ta",
+      "uuid": "247f7020-203d-4954-8e46-3776777d8ead",
+      "firstName": "Vtor",
+      "lastName": "Augusto",
+      "username": "Vtor98",
+      "password": "$2a$10$CShuc0W20bjoq67wnxnf9ebGl6Gi7iUDWP14yBzhXOC2W7OyaeGw2",
+      "balance": 0,
+      "createdAt": "2025-04-14T23:36:20.560Z",
+      "modifiedAt": "2025-04-14T23:36:20.560Z"
+    },
+    {
+      "id": "QoMK8i_8O",
+      "uuid": "f36b9779-f9df-4451-91b0-f33f17c0bd2c",
+      "firstName": "Vtor",
+      "lastName": "Augusto",
+      "username": "Vtor98",
+      "password": "$2a$10$IU/2l8JvUM591UQ8AoiFjemuisDbpfCWF3tPV3FaejmY4E8Qe8YK6",
+      "balance": 0,
+      "createdAt": "2025-04-14T23:39:15.440Z",
+      "modifiedAt": "2025-04-14T23:39:15.440Z"
     }
   ],
   "contacts": [
@@ -253,6 +286,17 @@
       "isDeleted": false,
       "createdAt": "2024-01-26T14:01:01.815Z",
       "modifiedAt": "2024-03-07T08:44:31.174Z"
+    },
+    {
+      "id": "u7qF6jjzT",
+      "uuid": "c5ceddf0-3187-4c51-aa35-44385bb00434",
+      "userId": "iep_LC6NG",
+      "bankName": "Test Bank",
+      "accountNumber": "123456789",
+      "routingNumber": "123456547",
+      "isDeleted": false,
+      "createdAt": "2025-04-14T23:42:34.693Z",
+      "modifiedAt": "2025-04-14T23:42:34.693Z"
     }
   ],
   "transactions": [
@@ -9855,6 +9899,17 @@
       "requestResolvedAt": "",
       "createdAt": "2023-11-10T07:15:28.127Z",
       "modifiedAt": "2024-03-07T21:58:09.668Z"
+    },
+    {
+      "id": "q9caw51p1",
+      "uuid": "711e5498-692d-4e78-827a-47718df80154",
+      "amount": 100000,
+      "description": "test",
+      "receiverId": "uBmeaz5pX",
+      "senderId": "iep_LC6NG",
+      "status": "complete",
+      "createdAt": "2025-04-14T23:45:29.166Z",
+      "modifiedAt": "2025-04-14T23:45:29.166Z"
     }
   ],
   "likes": [
@@ -10431,6 +10486,16 @@
       "isRead": false,
       "createdAt": "2024-02-01T18:53:45.699Z",
       "modifiedAt": "2024-03-07T17:13:52.110Z"
+    },
+    {
+      "id": "aOKa0bKs8m",
+      "uuid": "a6c1c58b-eec0-421c-b1cc-cad0e3a4e030",
+      "userId": "uBmeaz5pX",
+      "transactionId": "q9caw51p1",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-04-14T23:45:29.194Z",
+      "modifiedAt": "2025-04-14T23:45:29.194Z"
     }
   ],
   "banktransfers": [
@@ -10983,6 +11048,16 @@
       "transactionId": "gaggAe7wNoiC",
       "createdAt": "2023-03-24T22:18:19.407Z",
       "modifiedAt": "2024-03-07T13:32:42.472Z"
+    },
+    {
+      "id": "Xi3lC3PTDO",
+      "uuid": "e5e717ab-5853-4c7c-9313-54ab407012a2",
+      "userId": "iep_LC6NG",
+      "amount": 100000,
+      "transactionId": "q9caw51p1",
+      "type": "withdrawal",
+      "createdAt": "2025-04-14T23:45:29.172Z",
+      "modifiedAt": "2025-04-14T23:45:29.172Z"
     }
   ]
 }

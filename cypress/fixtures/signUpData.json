@@ -1,0 +1,18 @@
+{
+    "signUpSuccess": {
+      "firstname": "Vtor",
+      "lastname": "Augusto",
+      "username": "Vtor98",
+      "password": "9877532523",
+      "confirmpassword": "9877532523"
+    },
+  
+    "signUpFail": {
+      "firstname": "Victor",
+      "lastname": "de Paula",
+      "username": "rotV",
+      "password": "42313567890",
+      "confirmpassword": "7645352141"
+    }
+  }
+  

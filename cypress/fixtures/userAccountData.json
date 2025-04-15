@@ -1,0 +1,15 @@
+{
+    "userSuccess": {
+      "username": "Vtor98",
+      "password": "9877532523",
+      "bankName": "Test Bank",
+      "routingNumber": "123456789",
+      "accountNumber": "123456547"
+    },
+  
+    "userFail": {
+      "username": "test",
+      "password": "test"
+    } 
+  }
+  
