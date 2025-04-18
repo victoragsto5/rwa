@@ -2,7 +2,7 @@
 
 ![foto-capa](assets/real-world-app-cypress-capa.png) 
 
-This repository is based on the project developed by (https://github.com/cypress-io/cypress-realworld-app) it contains automated tests implemented with Cypress for the Real World App application. The test suite covers key functionalities, including user login, signup, transaction history, and user menu interactions related to sending money.
+This repository is based on the project developed by (https://github.com/cypress-io/cypress-realworld-app). It contains automated tests implemented with Cypress for the Real World App application. The test suite covers key functionalities, including user login, signup, transaction history, and user menu interactions related to sending money. All test cases were developed by me Victor Augusto de Paula.
 
 Test Cases Covered:
 
